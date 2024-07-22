@@ -1,6 +1,5 @@
 import { db } from "@/lib/db";
 import { auth } from "@clerk/nextjs/server";
-import { json } from "body-parser";
 import { NextRequest, NextResponse } from "next/server";
 require("dotenv").config();
 
